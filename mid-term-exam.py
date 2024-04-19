@@ -52,10 +52,10 @@ class Hall(Star_Cinema):
 hall1 = Hall(rows=30, cols=15, hall_no=1)
 hall1.entry_show(id='111', movie_name='Jawan', time='18:00')
 hall1.entry_show(id='222', movie_name='Pathan', time='12:00')
-seats_to_jawan = [(1, 1), (1, 3), (1, 5)]
+seats_to_jawan = [(1, 1), (1, 6), (1, 5)]
 hall1.book_ticket('111', seats_to_jawan)
-seats_to_pathan = [(1, 4), (1, 6), (1, 3)]
-hall1.book_ticket('111', seats_to_pathan)
+seats_to_pathan = [(1, 4), (1, 7), (1, 3)]
+hall1.book_ticket('222', seats_to_pathan)
 
 # answer 7
 while True:
